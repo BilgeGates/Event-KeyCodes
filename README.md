@@ -1,6 +1,6 @@
 # Event-KeyCodes
 
-###  Hello, this project is created using HTML, Css and JavaScript.  
+###  Hello, this project is created using HTML, CSS and JavaScript.  
 
 ## Setup Project  
 
