@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-<h1><a href="https://eventkodes-key.netlify.app/">live Demo</a></h1>
+<h3><a href="https://eventkodes-key.netlify.app/">Live Demo</a></h1>
 
 ## Haven a nice day!
 
