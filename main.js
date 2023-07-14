@@ -1,22 +1,20 @@
-const press = document.querySelector("#press");
-const container = document.querySelector(".container");
+const insert = document.getElementById("insert");
 
-const getKeyCode = (e) => {
-  container.innerHTML = `
-    <div class="key"> 
-<div class="name">event.key</div>
-          <span>${e.key === " " ? "Space" : e.key}</span>
-    </div>
-    <div class="key"> 
-    <div class="name">event.key</div>
-           <span>${e.keyCode}</span>
-    </div>
-    <div class="key"> 
-    <div class="name">event.code</div>
-            <span>${e.code}</span>
-    </div>
-    
-    `;
-};
+window.addEventListener("keydown", (event) => {
+  insert.innerHTML = `
+  <div class="key">
+  ${event.key === " " ? "Space" : event.key} 
+  <small>event.key</small>
+</div>
 
-window.addEventListener("keydown", getKeyCode);
+<div class="key">
+  ${event.keyCode}
+  <small>event.keyCode</small>
+</div>
+
+<div class="key">
+  ${event.code}
+  <small>event.code</small>
+</div>
+  `;
+});
